@@ -325,7 +325,8 @@ void loop() {
         Do68Steps();
       break;
       default:
-        // Print Timing Values
+        // If there is no matching StepCount just
+        // print Timing Values
         Serial.println("");
         int BitNum = 0;
         int i = 0;
